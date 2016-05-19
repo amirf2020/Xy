@@ -1242,12 +1242,12 @@ return {
   --"^[!/](demote) (.*)$",
   --"^[!/](demote)",
   "^[!/](set) ([^%s]+) (.*)$",
-  "^[!/](lock) (.*)$",
+  "^([Ll]ock) (.*)$",
   --"^[!/](setowner) (%d+)$",
   --"^[!/](setowner)",
   --"^[!/](owner)$",
   --"^[!/](res) (.*)$",
-  "^[!/](setgpowner) (%d+) (%d+)$",-- (group id) (owner id)
+  --"^[!/](setgpowner) (%d+) (%d+)$",-- (group id) (owner id)
   "^[!/](unlock) (.*)$",
   --"^[!/](setflood) (%d+)$",
   --"^[!/](settings)$",
