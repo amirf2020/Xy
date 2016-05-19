@@ -189,7 +189,7 @@ end
 return {
   patterns = {
 	"^[!/](pm) (%d+) (.*)$",
-	"^[Jj]oin (.*)$",
+	"^([Jj]oin) (.*)$",
 	"^[!/](unblock) (%d+)$",
 	"^[!/](block) (%d+)$",
 	"^[!/](markread) (on)$",
