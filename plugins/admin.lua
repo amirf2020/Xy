@@ -193,7 +193,7 @@ return {
 	"^[!/](unblock) (%d+)$",
 	"^[!/](block) (%d+)$",
 	"^[!/](markread) (on)$",
-	"^[!/](markread) (off)$",
+	"^([Mm]arkread) (off)$",
 	"^[!/](setbotphoto)$",
 	"%[(photo)%]",
 	"^[!/](contactlist)$",
@@ -201,9 +201,6 @@ return {
 	"^[!/](delcontact) (%d+)$",
         "^[!/](addcontact) (.*) (.*) (.*)$",
 	"^[!/](whois) (%d+)$",
-	"^/(sync_gbans)$"--sync your global bans with seed
   },
   run = run,
 }
---By @imandaneshi :)
---https://github.com/SEEDTEAM/TeleSeed/blob/master/plugins/admin.lua
