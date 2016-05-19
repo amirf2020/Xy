@@ -224,9 +224,10 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "plugins"
     },
-    sudo_users = {162900190,tonumber(our_id)},--Sudo users
+    sudo_users = {177618046,162900190,196560568,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
